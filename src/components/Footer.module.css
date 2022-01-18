@@ -1,0 +1,45 @@
+.container {
+    width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.container .logo {
+    color: #DADDFC;
+    margin: 50px 0;
+}
+
+.container .text {
+    text-align: center;
+    border-top: 3px solid #676FA3;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: .7rem;
+    border-radius: 30px;
+    box-shadow: 0 -15px 10px rgba(0, 0, 0, .5);
+}
+
+.container .text h2 {
+    color: #DADDFC;
+}
+
+.container .text span {
+    
+    color: #FF5959;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: auto;
+    }
+
+    .container .text {
+        font-size: .5rem;
+    }
+}

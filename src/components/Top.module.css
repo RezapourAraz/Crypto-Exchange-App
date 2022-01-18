@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    padding: 3px;
+}
+
+.image img {
+    width: 70px;
+}
+.name h3 {
+    color: #676FA3;
+}
+
+.coinInfo {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.price {
+    margin: 0 10px;
+    align-items: center;
+}
+
+.price .red {
+    background-color: salmon;
+    border-radius: 50px;
+    padding: 2px 5px;
+}
+
+.price .green {
+    background-color: limegreen;
+    border-radius: 50px;
+    padding: 2px 5px;
+}
+
+.price p {
+    padding: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        /* width: 200px; */
+        margin: 5px 0;
+    }
+    .image img {
+        width: 35px;
+    }
+
+    .name h3, .name p {
+        font-size: .7rem;
+        width: 40px;
+    }
+
+    .price,
+    .price p {
+        font-size: .7rem;
+    }
+
+}

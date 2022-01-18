@@ -1,0 +1,58 @@
+.container {
+    width: 1200px;
+    margin: 100px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.headText h2 {
+    color: #EEEEEE;
+    font-size: 2.5rem;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.text p {
+    padding: 20px;
+    color: #334756;
+    font-size: 1.2rem;
+}
+
+.btn {
+    margin: 20px;
+}
+
+.btn a {
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #676FA3;
+    color: #EEEEEE;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+
+.btn a:hover {
+    background-color: #4e4376;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .headText h2 {
+        font-size: 2rem;
+    }
+}
