@@ -1,7 +1,8 @@
 .container {
     display: flex;
     width: 1200px;
-    height: 130px;
+    height: fit-content;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #DADDFC;
@@ -26,5 +27,27 @@
 @media screen and (max-width: 1024px) {
     .container {
         width: auto;
+        flex-wrap: wrap;
+        width: auto;
+        height: fit-content;
+        margin: 0 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: auto;
+        flex-wrap: wrap;
+        width: auto;
+        height: fit-content;
+        margin: 0 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-around;
     }
 }

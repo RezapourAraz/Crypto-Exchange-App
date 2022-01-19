@@ -99,6 +99,11 @@
     padding: 0 10px;
     border-left: 1px solid #B2B1B9;
 }
+@media screen and (max-width: 1200px) {
+    .container {
+        width: auto;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .container {
@@ -106,7 +111,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .container {
         width: auto;
     }
@@ -119,19 +124,22 @@
         padding: 5px;
     }
     .coinsTitles .name{
-        width: 200px;
+        width: 150px;
     }
     .coinsTitles .price {
-        width: 80px;
+        width: 70px;
     }
 
     .coinsTitles .hightPrice, 
     .coinsTitles .lowPrice {
         display: none;
     }
+    .title h2 {
+        font-size: 1.5rem;
+    }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 460px) {
     .coinsTitles {
         margin: 0 auto;
     }

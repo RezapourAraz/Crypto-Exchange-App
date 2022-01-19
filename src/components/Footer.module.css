@@ -27,6 +27,11 @@
     
     color: #FF5959;
 }
+@media screen and (max-width: 1200px) {
+    .container {
+        width: auto;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .container {

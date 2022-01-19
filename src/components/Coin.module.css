@@ -74,19 +74,23 @@
         width: 60px;
     }
     .container .price {
-        width: 80px;
+        width: 70px;
     }
     .container .change {
-        width: 100px;
+        width: 60px;
         font-size: .65rem;
     }
     .hightPrice,
     .lowPrice {
         display: none;
     }
+    .container .volume {
+        width:100px ;
+        font-size: .65rem;
+    }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 460px) {
     .container {
         width: auto;
     }
