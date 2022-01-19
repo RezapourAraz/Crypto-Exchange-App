@@ -7,6 +7,7 @@ import { CoinContext } from '../context/CoinContextProvider';
 import { getTopFour } from '../helper/functions';
 // Styles
 import styles from './Tops.module.css';
+import Loader from './Loader';
 
 const Tops = () => {
 
@@ -17,7 +18,7 @@ const Tops = () => {
     return (
         <section className={styles.container}>
             {
-                tops.map(coin => <Top key={coin.id} coinData={coin} /> )
+            tops.length === 0 ? <Loader /> : tops.map(coin => <Top key={coin.id} coinData={coin} /> )
             }
         </section>
     );

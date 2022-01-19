@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-// Components
+// Pages Components
 import Landing from "./pages/Landing";
 import CoinsList from "./pages/CoinsList";
 // Context

@@ -45,8 +45,8 @@ const Navbar = ({open}) => {
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/coins">Coins</Link></li>
-                <li><Link to="/exchange">ExChange</Link></li>
-                <li><Link to="/about">About</Link></li>
+                <li><Link to="/">ExChange</Link></li>
+                <li><Link to="/">About</Link></li>
             </ul>
         </Nav>
     );

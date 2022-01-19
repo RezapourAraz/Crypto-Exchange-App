@@ -7,6 +7,7 @@ import Coin from './Coin';
 import { getTop } from '../helper/functions';
 // Styles
 import styles from './Coins.module.css';
+import Loader from './Loader';
 
 
 const Coins = () => {
@@ -31,7 +32,7 @@ const Coins = () => {
             </div>
             <div className={styles.items}>
                 {
-                    tops.map(coin => <Coin key={coin.id} coinData={coin} />)
+                    tops.length === 0 ? <Loader /> : tops.map(coin => <Coin key={coin.id} coinData={coin} />)
                 }
             </div>
             <div className={styles.line}>
