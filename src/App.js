@@ -1,12 +1,17 @@
+import { Routes, Route } from "react-router-dom";
 // Components
-import Landing from "./components/Landing";
+import Landing from "./pages/Landing";
+import CoinsList from "./pages/CoinsList";
 // Context
 import CoinContextProvider from "./context/CoinContextProvider";
 
 function App() {
   return (
     <CoinContextProvider>
-      <Landing />
+      <Routes>
+        <Route path="/" element={<Landing/>} />
+        <Route path="/coins" element={<CoinsList/>} />
+      </Routes>
     </CoinContextProvider>
   );
 }

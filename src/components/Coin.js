@@ -5,7 +5,6 @@ import styles from './Coin.module.css'
 const Coin = ({coinData}) => {
 
     const { name, image, current_price, symbol, market_cap_change_percentage_24h, market_cap, high_24h, low_24h } = coinData;
-    console.log(coinData);
 
     return (
         <div className={styles.container}>

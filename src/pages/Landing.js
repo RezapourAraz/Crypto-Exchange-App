@@ -1,10 +1,11 @@
 import React from 'react';
 // Components
-import Header from './Header';
-import Banner from './Banner';
-import Tops from './Tops';
-import Coins from './Coins';
-import Footer from './Footer';
+import Header from '../components/Header';
+import Banner from '../components/Banner';
+import Tops from '../components/Tops';
+import Coins from '../components/Coins';
+import Footer from '../components/Footer';
+
 
 
 const Landing = () => {
@@ -16,6 +17,7 @@ const Landing = () => {
             <Tops />
             <Coins />
             <Footer />
+            
         </>
     );
 };
